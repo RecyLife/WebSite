@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Raleway-SemiBold;
+    src: url(../fonts/Raleway-SemiBold.ttf);
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    
+    --border-color: #FFFFFF;
+    --border-radius: 25px;
+
+    --text-color: #FFFFFF;
+
+    --primary-color: #E8DFCA;
+    --secondary-color: #4F6F52;
+
+    --header-height: 80px;
+}
+
+body {
+	background-color: var(--primary-color);
+}
+

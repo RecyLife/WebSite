@@ -1,0 +1,74 @@
+main {
+    margin-top: var(--header-height);
+}
+
+.main-section {
+    width: 100%;
+    height: 100vh;
+}
+
+.product {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - var(--header-height));
+}
+
+.section-slogan {
+    font-family: "Raleway-SemiBold";
+    color: var(--secondary-color);
+    font-size: 50px;
+}
+
+
+.section-buy {
+    border-radius: calc(var(--border-radius) + 37px);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 544px;
+    width: 450px;
+    background-color: var(--secondary-color);
+}
+
+.buy-image-title {
+    position: relative;
+}
+
+.buy-image {
+    border-radius: var(--border-radius);
+    width: 375px;
+}
+
+.buy-title {
+    position: absolute;
+    color: var(--text-color);
+    font-family: Raleway-SemiBold;
+    bottom: 10px;
+    left: 10px;
+    text-shadow: 1px 1px 0px #0000004f;
+
+}
+
+.buy-button {
+    border-radius: 40px;
+    width: 375px;
+    height: 80px;
+    background-color: var(--text-color);
+    font-family: Raleway-SemiBold;
+    font-size: 30px;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.buy-button:hover, .buy-button:focus{
+    border: 1px solid black;
+}
+
+.about {
+    background-color: var(--secondary-color); 
+}
+

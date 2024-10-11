@@ -1,0 +1,53 @@
+.main-header {
+    padding-left: 20px;
+    top: 0;
+    position: fixed;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    height: var(--header-height);
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 2;
+}
+
+.header-logo {
+    height: 50px;
+    cursor: pointer;
+}
+
+.header-title {
+    color: var(--text-color);
+    font-family: "Raleway-SemiBold";
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.header-separator {
+    border-radius: var(--border-radius);
+    height: 60%;
+    width: 4px;
+    background: var(--border-color);
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.header-link {
+    font-family: "Raleway-SemiBold";
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: 0.2s;
+}
+
+.header-link:hover, .header-link:focus {
+    color: #ffffffb4;
+    outline: none;
+}
