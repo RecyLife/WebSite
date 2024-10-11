@@ -1,5 +1,8 @@
 main {
     margin-top: var(--header-height);
+    overflow: hidden; /*temp*/
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .main-section {

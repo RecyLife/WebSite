@@ -11,19 +11,26 @@
     <title>RecyTech</title>
 </head>
 <body>
-    <header class="main-header">
+    <header id="mainHeader" class="main-header">
+        <div id="headerBackground" class="header-background"></div>
         <img class="header-logo" src="./imgs/logo.png" alt="RecyTech logo" onclick="window.location.reload()">
-        <h1 class="header-title">RecyTech</h1>
+        <h1 id="headerTitle" class="header-title">RecyTech</h1>
         <div class="header-separator"></div>
         <div class="header-links">
             <p id="headerLinkProduct" class="header-link" onclick="smoothScroll('headerLinkProduct', 'product')">Notre produit</p>
             <p id="headerLinkAbout" class="header-link" onclick="smoothScroll('headerLinkAbout', 'about')">A propos</p>
             <p id="headerLinkContact" class="header-link" onclick="smoothScroll('headerLinkContact', 'contact')">Contact</p>
         </div>
+
+        <div class="hamburger-menu" id="hamburgerMenu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
     </header>
     <main>
         <section id="product" class="main-section product">
-            <h1 class="section-slogan">Réparer aujourd'hui <br>pour connecter demain.</h1>
+            <h1 class="section-slogan">Transformer les vieux pc <br>en de nouvelles oportunitées.</h1>
             <div class="section-buy">
                 <div class="buy-image-title">
                     <img class="buy-image" src="./imgs/template2.jpg" alt="template2">

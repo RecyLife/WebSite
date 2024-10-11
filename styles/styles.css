@@ -28,3 +28,7 @@ body {
 	background-color: var(--primary-color);
 }
 
+body.is-hamburger-active {
+    overflow: hidden;
+}
+
